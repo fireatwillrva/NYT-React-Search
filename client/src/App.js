@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ReactDOM from "react-dom";
+import API from "./utils/API"
 import Container from "./components/Container";
 import Jumbotron from "./components/Jumbotron";
 
