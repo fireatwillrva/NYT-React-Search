@@ -1,4 +1,5 @@
-// ====================================
+{{
+  // ====================================
 // Scrape button
 // ====================================
 $("#scrape").on("click", function() {
@@ -84,5 +85,5 @@ $(document).on("click", "#savenote", function() {
   $("#titleinput").val("");
   $("#bodyinput").val("");
 });
-
+}}
 export default API;
